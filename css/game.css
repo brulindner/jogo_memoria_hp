@@ -34,13 +34,17 @@
 }
 }
 
+body{
+    background-image: url(../imagens/bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 
 main{
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-image: url(../imagens/bg.jpg);
-    background-size: cover;
     min-width: 100vh;
     align-items: center;
     justify-content: center;
@@ -64,7 +68,7 @@ header{
     display: grid;
     grid-template-columns: repeat(8, 1fr); 
     gap: 15px;
-    width: 100%;
+    width: 90%;
     max-width: 900px;
     height: auto;
     margin: 0 auto;
